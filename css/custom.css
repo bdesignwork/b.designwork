@@ -1,0 +1,308 @@
+*{
+box-sizing: border-box;
+outline:none;
+}
+body{
+margin: 0;
+font-family: 'SFProDisplay';
+padding-top:70px;
+}
+.clearfix{
+clear:both;
+}
+a, a:hover{
+text-decoration:none !important;
+}
+ul{
+list-style: none;
+margin:0;
+padding: 0;
+}
+.bg-setting{
+    width:100%;
+    height:100%;
+    background-position: center center;
+    background-size: cover;
+}
+.mt-10{
+    margin-top:10px !important;
+}
+/* header Start */
+header{
+    padding:10px;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #fff;
+    z-index:99;
+}
+header a .logo{
+    color:#333;
+    font-size: 28px;
+    line-height: 30px;
+    padding-top:10px;
+    font-family: 'SFProDisplay-Bold';
+    transition:0.3s;
+}
+header a:hover .logo{
+    color:#D74656;
+}
+header .menu-btn{
+    color:#333;
+    float: right;
+    font-size: 35px;
+    transition: 0.3s;
+}
+header .menu-btn:hover{
+    color:#999;
+}
+header .menu-content{
+    background-color:rgba(0,0,0,0.8);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width:100%;
+    padding:50px 0;
+    text-align: right;
+}
+header .menu-content.open{
+    transform: translateY(270px);
+}
+header .menu-content .menu-close-btn{
+    color:#fff;
+    width:100%;
+    padding-right:15px;
+    display: inline-block;
+    font-size: 30px;
+    transition: 0.3s;
+}
+header .menu-content li{
+    margin:20px 15px 10px;
+}
+header .menu-content li a{
+    font-size:28px;
+    color:#fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+header .menu-content li a:hover{
+    color:#D74656;
+}
+/* header End */
+/* index Start */
+.intro{
+    text-align: center;
+    padding:80px 0;
+}
+.intro h3{
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.intro p{
+    font-size: 24px;
+    font-weight:200;
+}
+.intro .self-intro{
+    margin-top:50px;
+    font-size: 18px;
+}
+.project{
+    text-align: center;
+}
+.project .card{
+    position: relative;
+    height:400px;
+    background-color:#eee;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.project .card .project-img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    background-position: center center;
+    transition: 0.3s;
+}
+.project .card:hover .project-img{
+    transform: scale(1.15);
+    /* opacity: 0.7; */
+}
+.project .card .project-content{
+    /* display: none; */
+    position: absolute;
+    bottom: -100%;
+    left:0;
+    padding:20px 10px;
+    background-color:rgba(0,0,0,0.2);
+    color:#fff;
+    transition: 0.2s;
+}
+.project .card:hover .project-content{
+    width:100%;
+    bottom: 0;
+}
+.project .card .project-content .title{
+    font-size: 18px;
+    font-weight:400;
+}
+.project .card .project-content .title span{
+    font-style: italic;
+}
+/* .project .card .project-content .discribe{
+    font-size: 14px;
+} */
+.project .btn-more{
+    border:1px solid #333;
+    padding:12px 50px;
+    color:#333;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top:20px;
+    display: inline-block;
+    transform: 0.3s;
+}
+.project .btn-more:hover{
+    color:#666;
+    border-color: #666;
+}
+/* index End */
+/* footer start */
+footer{
+    margin:80px 0 0;
+    background-color: #efefef;
+}
+footer .contact{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+footer .contact h5{
+    font-size: 28px;
+    font-weight: medium;
+    margin:0;
+}
+footer .contact p{
+    font-weight: 300;
+    font-size: 18px; 
+}
+footer .contact p.email{
+    font-weight: 400;
+    margin:30px 0;
+}
+footer .sns{
+    padding:15px;
+    color: #888;
+}
+footer .sns ul{
+    float: right;
+}
+footer .sns ul li{
+    font-size: 20px;
+    display: inline-block;
+    margin:0 10px;
+}
+footer .sns ul li a{
+    color:#888;
+    transition: 0.3s;
+}
+footer .sns ul li a:hover{
+    color:#333;
+}
+/* footer End */
+
+/* project start */
+.banner{
+    height:400px;
+    width:100%;
+}
+.banner .img{
+    width:100%;
+    height:100%;
+}
+.project-intro{
+    padding:80px 0;
+}
+.project-intro img.images{
+    width:100%;
+    height:auto;
+    margin-top:80px;
+}
+.link a.cta{
+    display: inline-block;
+    margin-top:50px; 
+    background-color: #D74656;
+    border:1.5px solid #D74656;
+    color:#fff;
+    font-size: 18px;
+    padding:15px 30px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.link a.cta:hover{
+    background-color: #fff;
+    color:#D74656;
+}
+.video{
+    margin-top:100px;
+}
+/* About Me */
+.aboutme{
+    padding-top:30px;
+}
+.aboutme img{
+    width:220px;
+}
+.aboutme .title{
+    font-size:28px;
+}
+.aboutme .pos{
+    font-weight: 300;
+    color:#666;
+    font-size: 22px;
+}
+.aboutme ul.contact{
+    margin-top:50px;
+    font-size: 15px;
+    color:#999;
+    padding-left:0 !important;
+}
+.aboutme ul.contact li{
+    margin-bottom: 5px;
+}
+.aboutme ul{
+    padding-left:30px;
+}
+.aboutme h5{
+    font-size: 24px;
+    margin:50px 0 30px;
+}
+.aboutme h5 i{
+    margin-right:10px;
+    font-size: 20px;
+}
+.aboutme li.list{
+    margin-bottom: 25px;   
+}
+.aboutme li.list .title{
+    font-size:22px;
+    color:#333;
+}
+.aboutme li.list p{
+    font-size:16px;
+    color:#666;
+}
+.aboutme li.list p span{
+    font-size:18px;
+}
+.aboutme ul.skills{
+    color:#666;
+    font-size: 16px;
+    list-style: initial;
+    padding-left:45px;
+}
+.aboutme ul.skills li{
+    float: left;
+    margin-right:50px;
+    margin-bottom: 20px;
+}
