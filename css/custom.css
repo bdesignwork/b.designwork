@@ -295,6 +295,7 @@ footer .sns ul li a:hover{
 }
 .aboutme li.list p span{
     font-size:16px;
+    font-weight: 300;
 }
 .aboutme li.list p.date{
     color:#666;
