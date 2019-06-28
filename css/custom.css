@@ -36,6 +36,7 @@ header{
     width:100%;
     background-color: #fff;
     z-index:99;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
 }
 header a .logo{
     color:#333;
@@ -274,7 +275,7 @@ footer .sns ul li a:hover{
     padding-left:30px;
 }
 .aboutme h5{
-    font-size: 24px;
+    font-size: 22px;
     margin:50px 0 30px;
 }
 .aboutme h5 i{
@@ -285,7 +286,7 @@ footer .sns ul li a:hover{
     margin-bottom: 25px;   
 }
 .aboutme li.list .title{
-    font-size:22px;
+    font-size:20px;
     color:#333;
 }
 .aboutme li.list p{
@@ -293,7 +294,11 @@ footer .sns ul li a:hover{
     color:#666;
 }
 .aboutme li.list p span{
-    font-size:18px;
+    font-size:16px;
+}
+.aboutme li.list p.date{
+    color:#666;
+    font-weight: 300;
 }
 .aboutme ul.skills{
     color:#666;
