@@ -16,16 +16,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-    $(function(){
-        $('.menu-btn').on('click', function () {
-            $('.menu-btn').parents().siblings('.menu-content').addClass('open');
-            $('.menu-btn').hide();
-        })
-        $('.menu-close-btn').on('click', function () {
-            $('.menu-close-btn').parents('.menu-content').removeClass('open');
-            $('.menu-btn').show();
-        })
-    })
+
     </script>
 
 </head>
@@ -38,15 +29,10 @@
                 </a>
             </div>
             <div class="col-sm-9">
-                <a class="menu-btn" href="#"><i class="fas fa-grip-lines"></i></a>
-            </div>
-        </div>
-        <div class="menu-content">
-            <div class="container">
-                <a class="menu-close-btn" href="#"><i class="fas fa-times"></i></a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
+                <ul class="nav pull-right">
+                    <li><a href="index.html">PROJECTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <div class="clearfix"></div>
                 </ul>
             </div>
         </div>
@@ -124,7 +110,7 @@
             <div class="sns">
                 <div class="row">
                     <div class="col-sm-6">
-                        © BettyWang 2019
+                        © Betty Wang 2019
                     </div>
                     <div class="col-sm-6">
                         <ul>

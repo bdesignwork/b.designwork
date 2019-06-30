@@ -4,8 +4,9 @@ outline:none;
 }
 body{
 margin: 0;
-font-family: 'SFProDisplay';
-padding-top:70px;
+font-family:"Noto Sans TC", 微软雅黑, "Microsoft YaHei", sans-serif;;
+padding-top:60px;
+letter-spacing: 0.5px;
 }
 .clearfix{
 clear:both;
@@ -42,12 +43,27 @@ header a .logo{
     color:#333;
     font-size: 28px;
     line-height: 30px;
-    padding-top:10px;
+    padding-top:6px;
     font-family: 'SFProDisplay-Bold';
     transition:0.3s;
+    font-weight: 700;
 }
 header a:hover .logo{
     color:#D74656;
+}
+header ul.nav li{
+    float: left;
+}
+header ul.nav li a{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #333;
+    font-weight: 400;
+    transition: 0.3s;
+}
+header ul.nav li a:hover{
+    color:#D74656;
+    background-color:transparent;
 }
 header .menu-btn{
     color:#333;
@@ -92,6 +108,14 @@ header .menu-content li a:hover{
 }
 /* header End */
 /* index Start */
+section{
+    padding-top :80px;
+}
+section h3{
+    text-align: center;
+    margin-bottom: 50px;   
+    font-weight: 200;
+}
 .intro{
     text-align: center;
     padding:80px 0;
@@ -145,7 +169,7 @@ header .menu-content li a:hover{
     bottom: 0;
 }
 .project .card .project-content .title{
-    font-size: 18px;
+    font-size: 15px;
     font-weight:400;
 }
 .project .card .project-content .title span{
@@ -156,9 +180,10 @@ header .menu-content li a:hover{
 } */
 .project .btn-more{
     border:1px solid #333;
-    padding:12px 50px;
+    border-radius: 4px;
+    padding:8px 20px;
     color:#333;
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     margin-top:20px;
     display: inline-block;
@@ -168,11 +193,19 @@ header .menu-content li a:hover{
     color:#666;
     border-color: #666;
 }
+.photo .photo-content{
+    height:480px;
+}
+.blog iframe{
+    width:100%;
+    height:80vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
 /* index End */
 /* footer start */
 footer{
+    border-top:1px solid #eee;
     margin:80px 0 0;
-    background-color: #efefef;
 }
 footer .contact{
     border-bottom: 1px solid #ccc;
