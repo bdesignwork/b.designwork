@@ -291,8 +291,17 @@ footer .sns ul li a:hover{
 .aboutme{
     padding-top:30px;
 }
-.aboutme img{
-    width:220px;
+.aboutme .avatar{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    border:5px solid #fff;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+}
+.aboutme .avatar .bg-setting{
+    transform: scale(1.2) translate(5px,5px);
 }
 .aboutme .title{
     font-size:28px;
@@ -340,6 +349,13 @@ footer .sns ul li a:hover{
 .aboutme li.list p.date{
     color:#666;
     font-weight: 300;
+}
+.aboutme li.list .des{
+    list-style: disc;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #999;
 }
 .aboutme ul.skills{
     color:#666;
